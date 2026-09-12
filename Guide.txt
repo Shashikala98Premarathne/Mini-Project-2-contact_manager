@@ -1,0 +1,72 @@
+Project 2 — Contact Manager
+Goal
+Build a terminal program that lets the user manage contacts.
+A contact should have at least:
+Name
+Phone number
+Email
+Your program should show a menu like:
+Contact Manager
+---------------
+
+1. Add contact
+2. View contacts
+3. Search contact
+4. Update contact
+5. Delete contact
+6. Exit
+Recommended data structure
+Use a dictionary.
+For example:
+contacts = {
+    "Sarah": {
+        "phone": "0123456789",
+        "email": "sarah@email.com"
+    }
+}
+That means the contact name is the key, and the phone/email information is stored inside another dictionary.
+Structure
+Try to organize the project with functions:
+def add_contact():
+    pass
+
+def view_contacts():
+    pass
+
+def search_contact():
+    pass
+
+def update_contact():
+    pass
+
+def delete_contact():
+    pass
+Then your main program should repeatedly show the menu:
+START
+
+create empty contacts dictionary
+
+repeat:
+    show menu
+    ask user for choice
+
+    if choice == 1:
+        add contact
+
+    elif choice == 2:
+        view contacts
+
+    elif choice == 3:
+        search contact
+
+    elif choice == 4:
+        update contact
+
+    elif choice == 5:
+        delete contact
+
+    elif choice == 6:
+        exit program
+
+    else:
+        show invalid choice message
