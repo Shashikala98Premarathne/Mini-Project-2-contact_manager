@@ -28,7 +28,7 @@ That means the contact name is the key, and the phone/email information is store
 Structure
 Try to organize the project with functions:
 def add_contact():
-    pass
+    pass # Removed pass because it does nothing. 
 
 def view_contacts():
     pass
